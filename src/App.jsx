@@ -1,4 +1,3 @@
-// src/App.jsx
 import {
   createBrowserRouter,
   RouterProvider,
@@ -18,8 +17,8 @@ const router = createBrowserRouter([
     element: <PaginaInicial />,
   },
   {
-    path: 'estoque',  // Adicionando a rota para EstoqueVeiculos
-    element: <EstoqueVeiculos />,  // Componente que será exibido na rota "/estoque"
+    path: 'estoque',
+    element: <EstoqueVeiculos />,  
   },
 ]);
 
